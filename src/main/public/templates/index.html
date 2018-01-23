@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>CampusConnect</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/font.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/structure.css">
+<link rel="stylesheet" href="assets/css/w3.css">
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/angular-animate.min.js"></script>
+<script src="assets/js/commons.module.js"></script>
+<script src="assets/js/main.config.js"></script>
+<script src="assets/js/controllers/nav-controller.js"></script>
+
+
+
+<!--[if lt IE 9]>
+
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body ng-app="campusconnect">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header" ng-include src="'templates/partials/navigation.html'">
+</header>
+
+
+
+
+
+<section id="contentbody">
+  <div class="container">
+
+
+  </div>
+
+    <div ng-view></div>
+
+    <div class="col-sm-6 col-md-4 col-lg-4" style="position:absolute; right:100px; top:182px">
+      <div class="row">
+        <div class="rightbar_content">
+          <div class="single_blog_sidebar wow fadeInUp">
+            <h2>The Featured Stuff</h2>
+            <ul class="featured_nav">
+              <li> <a class="featured_img" href="#"><img src="images/animal_rights.jpg" alt=""></a>
+                <div class="featured_title"> <a class="" href="pages/single.html">Fight for Animal Rights at Sproul</a> </div>
+              </li>
+              <li> <a class="featured_img" href="#"><img src="images/ragamala_dance.jpg" alt=""></a>
+                <div class="featured_title"> <a class="" href="#">Ragamala Dance Company Presents: Written in Water</a> </div>
+              </li>
+              <li> <a class="featured_img" href="#"><img src="images/odesza.jpeg" alt=""></a>
+                <div class="featured_title"> <a class="" href="#">ODESZA 2017 - A Moment Apart</a> </div>
+              </li>
+            </ul>
+          </div>
+          <div class="single_blog_sidebar wow fadeInUp">
+            <h2>You might also like</h2>
+            <ul class="middlebar_nav wow">
+              <li> <a href="#" class="mbar_thubnail"><img alt="" src="images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Tour de France 2017 Replay</a> </li>
+              <li> <a href="#" class="mbar_thubnail"><img alt="" src="images/hot_img2.jpg"></a> <a href="#" class="mbar_title">Food for hope - charitable drive to help homeless children</a> </li>
+              <li> <a href="#" class="mbar_thubnail"><img alt="" src="images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Tour de France 2016 Replay</a> </li>
+              <li> <a href="#" class="mbar_thubnail"><img alt="" src="images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Tour de France 2015 Replay</a> </li>
+            </ul>
+          </div>
+          <div class="single_blog_sidebar wow fadeInUp">
+            <h2>Popular Tags</h2>
+            <ul class="poplr_tagnav">
+              <li><a href="#">Arts</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Nature</a></li>
+              <li><a href="#">Comedy</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Tourism</a></li>
+              <li><a href="#">Videos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer_inner">
+          <p class="pull-left">Copyright &copy; 2017 CampusConnect</p>
+          <p class="pull-right">Developed 2017</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
